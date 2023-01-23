@@ -18,7 +18,7 @@ weekday["state"] = "readonly" # "normal"
 weekday.pack()
 
 def handle_selection(event):
-    print("Today id", selected_weekday.get())
+    print("Today is", selected_weekday.get())
     print("But we're gonna change it to Friday.")
     selected_weekday.set("Friday")
     print(weekday.current())
